@@ -20,7 +20,7 @@ def main():
 
  print(f"you need to drink {total} ml every day " )
  print("timer is set for hour (8 total)" )
- print(f"drink {total/5} ml every hour " )
+ print(f"drink {total/8} ml every hour " )
 
 
  reminder = 5
