@@ -33,7 +33,18 @@ def main():
 
     words = ["banana","pie","apple"]
     sorted_words = sorted(words,key=len)
-    print
+    print(sorted_words)
+
+    #yellow
+    fruits = ["apple","orange","grapes"]
+    fruits.append("banana")
+    print(fruits)
+
+    fruits1 = ["apple","orange","grapes"]
+    fruits1.insert(2,"banana")
+    print(fruits1)
+
+    
 
 
 
