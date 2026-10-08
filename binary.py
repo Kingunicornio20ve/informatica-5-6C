@@ -2,14 +2,25 @@ def main():
 
     print(" Here we Convert binary numbers to decimals")
     print("")
-    binary = int(input(Enter your Binary number:"))
-    binary_to_decimal(binary)
 
-def binary():
-    
+def binary_to_decimal(binary):
+    decimal = 0
+    i = 0
+    while len(binary)> 0:
+    digit = int(binary [-1])
+    decimal += digit * (2 ** i)
+    binary = binary[- 1]
 
-    print(" Welcome to Binary to decimal Converter")
-    print("")
+
+    numbers = int(input("Enter the binary number :"))
+    result = binary_to_decimal(numbers)
+
+
+
+
+
+
+
 
 
 
