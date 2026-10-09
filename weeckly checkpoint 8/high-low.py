@@ -22,8 +22,9 @@ def main():
             lowest_num = c
         print(f"The lowest number entered is {lowest_num}")
 
-    lowest(8, 2, 5)
-
+        num3 = float(input("Enter first number: "))
+        num4 = float(input("Enter second number: "))
+        num5 = float(input("Enter third number: "))
 
 
 
